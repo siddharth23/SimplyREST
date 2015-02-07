@@ -1,0 +1,5 @@
+package cofigs
+
+object JsonFile {
+
+}
