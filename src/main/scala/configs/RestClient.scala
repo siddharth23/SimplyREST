@@ -1,4 +1,4 @@
-package cofigs
+package configs
 import akka.actor.{ ActorLogging, Props, Actor, ActorSystem }
 import akka.event.Logging
 import spray.httpx.SprayJsonSupport
@@ -105,7 +105,7 @@ class RestClient(val actorSystemName: String) extends RestOperations {
         if (log.isDebugEnabled)
           log.debug("[ HttpResponse : %s".format(response))
         else
-          log.info("Request-Level API: received response with status {}", response.status)
+          log.info("Request-Level API: received response ", response)
         result = Some(response)
       }
       Await.result(actorRef, atMostWaitTime)

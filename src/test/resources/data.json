@@ -1,0 +1,42 @@
+{
+	"Suite": 
+	[
+		{
+			"url": "http://api.duckduckgo.com/",
+			"NoOfGETCalls": 5,
+			"NoOfPOSTCalls": 0,
+			"NoOfPUTCalls": 0,
+			"NoOfDeleteCalls": 0,
+			"comment_Post": "enter the Post method data here",
+			"Post": 
+			[
+				{
+					"data": "test"
+				}
+			],
+
+			"comment_Put": "enter the Put method data here",
+			"Put": 
+			[
+				{
+					"data": "test"
+				}
+			],
+
+			"Headers": 
+			[
+				{
+					"Host" :"api.duckduckgo.com"
+				}
+			],
+
+			"QueryParams": 
+			[
+				{
+					"q": "DuckDuckGo",
+					"format": "json"
+				}
+			]
+		}
+	]
+}
