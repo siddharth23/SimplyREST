@@ -21,6 +21,6 @@ Similarly QueryParams in "QueryParams" object
 
 For making x number of parallel calls to you API change 'max-connections' field of 'host-connector' to x.
 
-You can change many configurations in src/test/resources/application.conf all details of which are written in the file itself
+You can change many configurations in src/test/resources/application.conf all details of which are written in the src/test/resources/application.conf file itself
 
 ------------------------------------------------Thank You---------------------------------------------------------------------
