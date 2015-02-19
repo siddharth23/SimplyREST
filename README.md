@@ -2,10 +2,12 @@
 SimplyREST is a project in Scala and Spray for checking the behavior of your APIs with parallel calls.
 
 ---------------------Setting the framework---------------------------------------------
+
 1. Install scala
 2. Install sbt
 
 ---------------------Making the concurrent calls---------------------------------------
+
 In terminal enter below command-
 sbt run
 
