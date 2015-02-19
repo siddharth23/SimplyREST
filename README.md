@@ -1,9 +1,17 @@
 
 SimplyREST is a project in Scala and Spray for checking the behavior of your APIs with parallel calls.
 
------------------------------------Your API Details In src/test/resources/data.json----------------------------------------
+---------------------Setting the framework---------------------------------------------
+1. Install scala
+2. Install sbt
 
-You can make CRUD(POST,READ,PU and Delete) operations to your APIs by specifying the url,no of individual methods call headers and query params in src/test/resources/data.json.
+---------------------Making the concurrent calls---------------------------------------
+In terminal enter below command-
+sbt run
+
+---------------------Your API Details In src/test/resources/data.json-------------------
+
+You can make CRUD(POST,READ,PUT and Delete) operations to your APIs by specifying the url,no of individual methods call headers and query params in src/test/resources/data.json.
 
 Like -
 "url": "http://api.duckduckgo.com/" //you API endpoint
